@@ -28,7 +28,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Call device specific makefile
-$(call inherit-product, device/meizu/meilan2/device.mk)
+$(call inherit-product, device/meizu/meilan2/device_meilan2.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_meilan2
